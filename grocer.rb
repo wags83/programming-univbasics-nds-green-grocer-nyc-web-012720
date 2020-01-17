@@ -74,9 +74,9 @@ while i < cart.length
 end
 
 def checkout(cart, coupons)
-#cons_cart = []
-#coupon_cart = []
-#clearance_cart = []
+cons_cart = []
+coupon_cart = []
+clearance_cart = []
 
 cons_cart = consolidate_cart(cart)
 coupon_cart = apply_coupons(cons_cart, coupons)
