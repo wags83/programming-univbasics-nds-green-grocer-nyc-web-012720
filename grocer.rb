@@ -90,7 +90,7 @@ while i < clearance_cart.length do
   i += 1
 end
 if total > 100
-  total = 0.8 * total
+  total = 0.9 * total
 end
 total
 end
